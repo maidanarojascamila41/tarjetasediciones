@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*{margin: 0; padding: 0;}
+
+
+
+    
+.containertarjetas{
+width: 100%;
+height: 100%;
+background-image: url('fondo.jpg'); 
+height: 120vh; 
+background-size: cover;
+}
+
+.container{position: absolute;
+top:20%;
+left: 50%;
+transform: translate(-50%,-50%);}
+
+.text{background: linear-gradient(90deg,#00dbde,#fc00ff);
+font-family: 'Orbitron', sans-serif;
+font-size: 40px;
+text-transform: uppercase;
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+.tarjetas{padding-top: 250px;
+margin-left: 300px;}
+.tarjetas img{cursor: pointer;}
+img:hover{transform: scale(1.3);
+transition: 2s;} 
